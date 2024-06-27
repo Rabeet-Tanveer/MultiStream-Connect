@@ -2,6 +2,11 @@
 MultiStream Connect is a client-server application for real-time video streaming with concurrent client support. It uses multithreading for efficient management and features a user-friendly GUI with Tkinter. Capture, serialize, and display video frames using OpenCV.
 
 Key Features
+
+Save Local Transfer:
+
+Since the server and client are both on a local network, anyone without access to the network cannot interfere with data. Furthermore, processing is kept on server side so client side code can be run on micro controllers on IOT devices(Smart Cameras) without issue and processing can be done on a more resource heavy server side PC.
+
 Client-Server Communication:
 
 Establishes TCP connections using Python's socket library.
